@@ -12,7 +12,7 @@ export default function MyResume() {
         <div className="education-item">
           <h3>Graduation Degree - Energy Engineering | Pontifical Catholic University PUC-MG</h3>
           <p>February 2018 - August 2018</p>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ea repellat sequi, cum odio quod dolores fuga esse ipsam, porro officiis earum facere modi dicta laboriosam? Inventore doloribus at dolore!</span>
+          <span>In the short period that I kept in this course, I was part of the Baja PUC team; it's a competitive academic group in the off-road automobile modality with many subareas os studying, as mechanical, electrical and etc. It was the most important experience in this period and you can check more in their <a href="https://sites.google.com/view/bajapucminas/página-inicial" target="#">site</a>.</span>
           <div className="line"></div>
         </div>
         <div className="education-item">
@@ -23,7 +23,7 @@ export default function MyResume() {
         </div>
         <h2>Curriculum</h2>
         <div className="my-curriculum">
-          <span>You can check my CV document in PDF with more details about me <a href="https://drive.google.com/file/d/1xfGA2qK1cKEhXdBXHRW__4QisQDe2LKm/view?usp=sharing">here</a>.</span>
+          <span>You can check my CV document in PDF with more details about me <a href="https://drive.google.com/file/d/1xfGA2qK1cKEhXdBXHRW__4QisQDe2LKm/view?usp=sharing" target="#">here</a>.</span>
         </div>
       </div>
 
