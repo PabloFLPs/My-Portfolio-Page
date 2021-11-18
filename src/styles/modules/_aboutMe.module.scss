@@ -1,0 +1,57 @@
+.about-me {
+  text-align: center;
+  background: rgb(61, 61, 61);
+  background: #003b46;
+  color: white;
+  padding: 2rem;
+
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+
+  strong {
+    font-weight: 800;
+  }
+
+  .my-profile {
+    align-self: center;
+    top: 100px;
+  
+    .my-image {
+      background: url("../../assets/my_image.jpg") no-repeat;
+      width: 160px;
+      height: 160px;
+      background-size: cover;
+      border-radius: 10px;
+    }
+
+    p {
+      margin: 8px 0 0;
+      font-weight: 600;
+    }
+  }
+  
+  .who-am-i {
+    //border: 2px solid #07575b;
+    //border-radius: 5px;
+    width: 340px;
+    background: #003b46;
+    color: white;
+  
+    strong {
+      font-weight: 800;
+    }
+  
+    p {
+      text-align: justify;
+    }
+
+    .line {
+      border-bottom: 2px solid white;
+    }
+  
+    a {
+      color: white;
+    }
+  }
+}

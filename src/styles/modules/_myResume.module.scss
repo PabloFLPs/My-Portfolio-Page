@@ -1,0 +1,61 @@
+.my-resume {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  gap: 2.5rem;
+
+  .line {
+    border-bottom: 2px solid white;
+    padding: 0.5rem;
+  }
+
+  .education-item {
+    padding: 0.5rem;
+    text-align: justify;
+  }
+
+  .my-curriculum {
+    text-align: justify;
+    align-self: center;
+    padding: 0.5rem;
+    
+    a {
+      color: white;
+    }
+  }
+
+  .experience-item {
+    padding: 0.5rem;
+    text-align: justify;
+  }
+
+  .left {
+    width: 1080px;
+    width: 530px;
+    border: 2px solid #003b46;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    background: #003b46;
+    color: white;
+
+    h2 {
+      text-decoration: underline;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .right {
+    width: 1080px;
+    width: 530px;
+    border: 2px solid #003b46;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    background: #003b46;
+    color: white;
+
+    h2 {
+      text-decoration: underline;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

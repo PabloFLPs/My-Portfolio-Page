@@ -1,0 +1,24 @@
+.navbar {
+  background: wheat;
+  background: #003b46;
+  padding: 2.5rem 0rem;
+  position: fixed;
+  width: 100%;
+  
+  text-align: center;
+  margin: 0;
+
+  z-index: 1;
+
+  a {
+    padding: 15px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

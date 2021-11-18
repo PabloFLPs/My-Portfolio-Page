@@ -1,0 +1,71 @@
+body {
+  background: #66a5ad;
+  margin: 0;
+  font: 15px -apple-system;
+  color: white;
+}
+
+section {
+  background: #07575b;
+}
+
+.navbar {
+  background: #003b46;
+  padding: 3rem;
+}
+.navbar ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul a {
+  padding: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.presentation {
+  text-align: center;
+  margin-top: 18rem;
+}
+.presentation h1 {
+  font-size: 50px;
+}
+.presentation h1 .my-name {
+  font: 80px -apple-system;
+  font-weight: bold;
+}
+.presentation strong {
+  font: 20px -apple-system;
+}
+.presentation p {
+  font-size: 20px;
+}
+
+.portifolio {
+  text-align: center;
+  padding: 6rem;
+}
+.portifolio ul {
+  margin: 0;
+  padding: 0;
+}
+
+.resume {
+  text-align: center;
+  padding: 4rem;
+  display: flex;
+}
+.resume .my-resume {
+  display: flex;
+  align-content: space-between;
+  gap: 4rem;
+}
+
+.about {
+  text-align: center;
+  background: #66a5ad;
+  color: black;
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,24 @@
+.container {
+  padding: 0.5rem;
+  align-items: center;
+
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+
+  .github-card {
+    font-size: 18px;
+
+    div {
+      width: 400px;
+      height: 130px;
+      border: 5px solid #003b46;
+      border-radius: 6px;
+    }
+
+    object {
+      filter: saturate(120%) brightness(90%) /*invert(1)*/;
+      border-radius: 4px;
+    }
+  }
+}

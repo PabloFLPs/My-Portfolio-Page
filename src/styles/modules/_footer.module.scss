@@ -1,0 +1,43 @@
+.footer {
+  text-align: center;
+  padding: 1.5rem 4rem 1.5rem 0rem;
+  justify-content: center;
+  display: flex;
+  gap: 6rem;
+  background: #003b46;
+
+  .github-section {
+    
+    background: url("../../assets/github_logo.png") no-repeat;
+    width: 17px;
+    height: 17px;
+    background-size: cover;
+    border-radius: 10px;
+    align-self: center;
+    filter: invert(1);
+
+    a {
+      color: white;
+      text-decoration: none;
+      filter: invert(1);
+      padding: 0rem 0rem 0rem 1.5rem;
+    }
+  }
+
+  .twitter-section {
+    background: url("../../assets/twitter_logo.png") no-repeat;
+    width: 17px;
+    height: 17px;
+    background-size: cover;
+    border-radius: 10px;
+    align-self: center;
+    filter: invert(1);
+    
+    a {
+      color: white;
+      text-decoration: none;
+      filter: invert(1);
+      padding: 0rem 0rem 0rem 1.5rem;
+    }
+  }
+}
