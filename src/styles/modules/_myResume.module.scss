@@ -64,17 +64,36 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .my-resume {
     display: contents;
+
     .left {
-      width: 70%;
+      width: 74%;
       margin: auto;
       margin-bottom: 1rem;
     }
   
     .right {
-      width: 70%;
+      width: 74%;
+      margin: auto;
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .my-resume {
+    display: contents;
+
+    .left {
+      width: 74%;
+      margin: auto;
+      margin-bottom: 1rem;
+    }
+  
+    .right {
+      width: 74%;
       margin: auto;
       margin-top: 1rem;
     }

@@ -147,6 +147,18 @@ button {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1080px) {
+  .presentation {
+    padding: 20rem 0 0 34rem;
+  }
+}
+
+@media screen and (max-width: 1044px) {
+  .presentation {
+    padding: 14rem 0 0 34rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .presentation {
     text-align: center;
@@ -194,5 +206,17 @@ button {
       font: 12px -apple-system;
       font-weight: 100;
     }
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .presentation {
+    padding-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .presentation {
+    padding-top: 4rem;
   }
 }
