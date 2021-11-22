@@ -22,3 +22,40 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: contents;
+  
+    .github-card {
+      padding: 0.5rem;
+
+      div {
+        width: 400px;
+        margin: auto;
+      }
+  
+      object {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .container {
+    display: contents;
+  
+    .github-card {
+  
+      div {
+        width: 96%;
+        
+      }
+  
+      object {
+        width: 100%;
+      }
+    }
+  }
+}

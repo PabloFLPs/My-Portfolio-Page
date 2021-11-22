@@ -63,3 +63,20 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .my-resume {
+    display: contents;
+    .left {
+      width: 70%;
+      margin: auto;
+      margin-bottom: 1rem;
+    }
+  
+    .right {
+      width: 70%;
+      margin: auto;
+      margin-top: 1rem;
+    }
+  }
+}

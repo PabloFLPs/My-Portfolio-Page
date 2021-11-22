@@ -55,3 +55,28 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .about-me {
+    display: contents;
+
+    .my-image {
+      margin: auto;
+    }
+
+    .who-am-i {
+      margin: auto;
+      margin-top: 1rem;
+      padding: 0.5rem 1.5rem;
+      border-radius: 5px;
+      width: 70%;
+    }
+
+    top: 0;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+}

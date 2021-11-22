@@ -146,3 +146,53 @@ button {
   padding: 1rem 1.5rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .presentation {
+    text-align: center;
+    
+    padding: 0;
+    padding-top: 130px;
+    
+    h1 {
+      font-size: 44px;
+  
+      p {
+        margin: 0;
+  
+        .my-name {
+          font: 72px -apple-system;
+          font-weight: 800;
+        }
+      }
+    }
+  
+    .my-page {
+      font: 18px -apple-system;
+      font-weight: 100;
+    }
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .presentation {
+    
+    h1 {
+      font-size: 30px;
+  
+      p {
+        margin: 0;
+  
+        .my-name {
+          font: 48px -apple-system;
+          font-weight: 800;
+        }
+      }
+    }
+  
+    .my-page {
+      font: 12px -apple-system;
+      font-weight: 100;
+    }
+  }
+}
