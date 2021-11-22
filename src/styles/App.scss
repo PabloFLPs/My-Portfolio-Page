@@ -186,8 +186,33 @@ button {
   }
 }
 
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 540px) {
   .presentation {
+    padding-top: 6rem;
+    
+    h1 {
+      font-size: 38px;
+  
+      p {
+        margin: 0;
+  
+        .my-name {
+          font: 60px -apple-system;
+          font-weight: 800;
+        }
+      }
+    }
+  
+    .my-page {
+      font: 18px -apple-system;
+      font-weight: 100;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .presentation {
+    padding-top: 6rem;
     
     h1 {
       font-size: 30px;
@@ -196,7 +221,31 @@ button {
         margin: 0;
   
         .my-name {
-          font: 48px -apple-system;
+          font: 50px -apple-system;
+          font-weight: 800;
+        }
+      }
+    }
+  
+    .my-page {
+      font: 14px -apple-system;
+      font-weight: 100;
+    }
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .presentation {
+    padding-top: 4rem;
+    
+    h1 {
+      font-size: 24px;
+  
+      p {
+        margin: 0;
+  
+        .my-name {
+          font: 40px -apple-system;
           font-weight: 800;
         }
       }
@@ -209,14 +258,26 @@ button {
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 290px) {
   .presentation {
     padding-top: 6rem;
-  }
-}
-
-@media screen and (max-width: 340px) {
-  .presentation {
-    padding-top: 4rem;
+    
+    h1 {
+      font-size: 20px;
+  
+      p {
+        margin: 0;
+  
+        .my-name {
+          font: 30px -apple-system;
+          font-weight: 800;
+        }
+      }
+    }
+  
+    .my-page {
+      font: 10px -apple-system;
+      font-weight: 100;
+    }
   }
 }

@@ -54,3 +54,13 @@
     }
   }
 }
+
+@media screen and (max-width: 290px) {
+  .navbar {
+    padding: 1rem 0rem;
+  
+    a {
+      padding: 0 4px;
+    }
+  }
+}
