@@ -18,7 +18,7 @@ html {
 body {
   background: #1a1b1c;
   margin: 0;
-  font: 15px -apple-system;
+  font: 15px Verdana;
   color: black;
 }
 
@@ -36,7 +36,7 @@ section {
   text-align: center;
   color: white;
 
-  padding: 15.5rem 0 0 46rem;
+  padding: 15rem 0 0 42.5rem;
   
   h1 {
     font-size: 50px;
@@ -47,14 +47,14 @@ section {
       margin: 30px 0 30px;
 
       .my-name {
-        font: 80px -apple-system;
+        font: 76px Verdana;
         font-weight: 800;
       }
     }
   }
 
   .my-page {
-    font: 18px -apple-system;
+    font: 18px Verdana;
     font-weight: 100;
     text-transform: uppercase;
     color: #ffffff99;
@@ -67,6 +67,10 @@ section {
   padding: 1.5rem 0rem 0.5rem 0rem;
   padding: 5.5rem 0 0 0;
 
+  h2 {
+    font-weight: 100;
+  }
+
   strong {
     font-weight: 800;
   }
@@ -77,6 +81,10 @@ section {
   padding: 5.5rem 0 0 0;
   text-align: center;
 
+  h2 {
+    font-weight: 100;
+  }
+
   strong {
     font-weight: 800;
   }
@@ -86,6 +94,10 @@ section {
   padding: 0.5rem 0rem 2rem 0rem;
   padding: 5.5rem 0 0 0;
   text-align: center;
+
+  h2 {
+    font-weight: 100;
+  }
 
   strong {
     font-weight: 800;
@@ -99,10 +111,14 @@ section {
   padding: 1rem 0;
   padding: 5.5rem 0 1rem 0;
 
+  font-family: Verdana;
+
   h3 {
     text-align: center;
     font-size: 22.5px;
     margin: 18.675px 0;
+    
+    font-weight: 100;
 
     strong {
       font-weight: 800;
@@ -123,7 +139,7 @@ input, textarea {
   border-radius: .3em;
   border: 2px solid #003b46;
   box-sizing: border-box;
-  font: 15px -apple-system;
+  font: 15px Verdana;
 }
 
 form {
@@ -147,15 +163,53 @@ button {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1210px) {
   .presentation {
-    padding: 20rem 0 0 34rem;
+    padding: 18rem 0 0 36rem;
+    
+    h1 {
+      font-size: 50px;
+  
+      p {
+        margin: 0;
+
+        margin: 20px 0 20px;
+  
+        .my-name {
+          font: 64px Verdana;
+          font-weight: 800;
+        }
+      }
+    }
+
+    .my-page {
+      font: 20px Verdana;
+      font-weight: 100;
+    }
   }
 }
 
 @media screen and (max-width: 1044px) {
   .presentation {
     padding: 14rem 0 0 34rem;
+
+    text-align: center;
+    
+    padding: 0;
+    padding-top: 130px;
+    
+    h1 {
+      font-size: 50px;
+  
+      p {
+        margin: 0;
+  
+        .my-name {
+          font: 80px Verdana;
+          font-weight: 800;
+        }
+      }
+    }
   }
 }
 
@@ -173,14 +227,14 @@ button {
         margin: 0;
   
         .my-name {
-          font: 72px -apple-system;
+          font: 72px Verdana;
           font-weight: 800;
         }
       }
     }
   
     .my-page {
-      font: 18px -apple-system;
+      font: 18px Verdana;
       font-weight: 100;
     }
   }
@@ -197,14 +251,14 @@ button {
         margin: 0;
   
         .my-name {
-          font: 60px -apple-system;
+          font: 60px Verdana;
           font-weight: 800;
         }
       }
     }
   
     .my-page {
-      font: 18px -apple-system;
+      font: 18px Verdana;
       font-weight: 100;
     }
   }
@@ -221,14 +275,14 @@ button {
         margin: 0;
   
         .my-name {
-          font: 50px -apple-system;
+          font: 50px Verdana;
           font-weight: 800;
         }
       }
     }
   
     .my-page {
-      font: 14px -apple-system;
+      font: 14px Verdana;
       font-weight: 100;
     }
   }
@@ -245,14 +299,14 @@ button {
         margin: 0;
   
         .my-name {
-          font: 40px -apple-system;
+          font: 40px Verdana;
           font-weight: 800;
         }
       }
     }
   
     .my-page {
-      font: 12px -apple-system;
+      font: 12px Verdana;
       font-weight: 100;
     }
   }
@@ -269,14 +323,14 @@ button {
         margin: 0;
   
         .my-name {
-          font: 30px -apple-system;
+          font: 30px Verdana;
           font-weight: 800;
         }
       }
     }
   
     .my-page {
-      font: 10px -apple-system;
+      font: 10px Verdana;
       font-weight: 100;
     }
   }
