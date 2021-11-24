@@ -15,7 +15,7 @@ export default function MyPortfolio() {
         </div>
 
         <div className="github-card">
-          <p><strong>Diversight</strong> Backend Project - ioasys CAMP 2021</p>
+          <p><strong>Diversight</strong> Project - ioasys CAMP 2021</p>
           <div>
             <a href="https://github.com/PabloFLPs/ioasys-CAMP-2021-diversight">
               {/*<img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/PabloFLPs/ioasys-CAMP-2021-diversight.png" width="390px" height="130" alt="Diversight Card"/>*/}
