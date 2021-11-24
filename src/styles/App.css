@@ -1,7 +1,7 @@
 body {
   background: #66a5ad;
   margin: 0;
-  font: 15px -apple-system;
+  font: 15px Verdana;
   color: white;
 }
 
@@ -34,11 +34,11 @@ section {
   font-size: 50px;
 }
 .presentation h1 .my-name {
-  font: 80px -apple-system;
+  font: 80px Verdana;
   font-weight: bold;
 }
 .presentation strong {
-  font: 20px -apple-system;
+  font: 20px Verdana;
 }
 .presentation p {
   font-size: 20px;
