@@ -10,15 +10,20 @@
   z-index: 1;
 
   a {
-    padding: 15px 20px;
+    //padding: 15px 20px;
+    margin: 0 20px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
     font-weight: 600;
 
-    &:hover {
-      text-decoration: underline;
-    }
+    box-shadow: none;
+    transition: box-shadow 0.4s;
+  }
+
+  a:hover {
+    box-shadow: 0 2px white;
+    transition: box-shadow 0.8s;
   }
 }
 
