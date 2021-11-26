@@ -25,7 +25,7 @@ export default function MyResume() {
     {
       title: "Backend Developer | LeCode",
       period: "September 2021 - Present",
-      description: "I work with JavaScript utilizing NodeJS to develop backend applications."
+      description: "I work with React/NextJS in some front-end applications as this page itself and NodeJS to develop back-end applications, as APIs or CRUDs. Also, I am studying TypeScript."
     },
     {
       title: "Marketing | Commit Jr.",
@@ -48,7 +48,6 @@ export default function MyResume() {
     <div className="my-resume">
       <div className="left">
         <h2>Education</h2>
-
         {
           Educations.map((education) => (
             <div className="education-item">
@@ -64,29 +63,6 @@ export default function MyResume() {
           ))
         }
 
-        {
-        /*
-        <div className="education-item">
-          <h3></h3>
-          <p></p>
-          <span>.</span>
-          <div className="line"></div>
-        </div>
-        <div className="education-item">
-          <h3></h3>
-          <p></p>
-          <span><a href="https://sites.google.com/view/bajapucminas/página-inicial" target="#">site</a>.</span>
-          <div className="line"></div>
-        </div>
-        <div className="education-item">
-          <h3></h3>
-          <p></p>
-          <span>.</span>
-          <div className="line"></div>
-        </div>
-        */
-        }
-
         <h2>Curriculum</h2>
         <div className="my-curriculum">
           <span>You can check my CV document in PDF with more details about me <a href="https://drive.google.com/file/d/1xfGA2qK1cKEhXdBXHRW__4QisQDe2LKm/view?usp=sharing" target="#">here</a>.</span>
@@ -95,7 +71,6 @@ export default function MyResume() {
 
       <div className="right">
         <h2>Experience</h2>
-
         {
           Experiences.map((experience) => (
             <div className="education-item">
@@ -104,37 +79,12 @@ export default function MyResume() {
               <span>
                 {experience.description}
               </span>
-              <div className="line"></div>
+                {
+                  //Veryfing if is the last element of "Experiences". If true, then we don't have a last line separating the items.
+                  (Experiences[Experiences.indexOf(experience) + 1] != null) && (<div className="line"></div>)
+                }
             </div>
           ))
-        }
-
-        {
-        /*
-        <div className="experience-item">
-          <h3></h3>
-          <p></p>
-          <span></span>
-          <div className="line"></div>
-        </div>
-        <div className="experience-item">
-          <h3></h3>
-          <p></p>
-          <span></span>
-          <div className="line"></div>
-        </div>
-        <div className="experience-item">
-          <h3></h3>
-          <p></p>
-          <span></span>
-          <div className="line"></div>
-        </div>
-        <div className="experience-item">
-          <h3></h3>
-          <p></p>
-          <span></span>
-        </div>
-        */
         }
       </div>
     </div>
