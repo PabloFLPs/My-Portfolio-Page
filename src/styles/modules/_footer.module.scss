@@ -20,7 +20,13 @@
       color: white;
       text-decoration: none;
       filter: invert(1);
-      padding: 0rem 0rem 0rem 1.5rem;
+      //padding: 0rem 0rem 0rem 1.5rem;
+      margin: 0 0 0 1.5rem;
+    }
+
+    a:hover {
+      box-shadow: 0 2px white;
+      transition: box-shadow 0.8s;
     }
   }
 
@@ -37,7 +43,13 @@
       color: white;
       text-decoration: none;
       filter: invert(1);
-      padding: 0rem 0rem 0rem 1.5rem;
+      //padding: 0rem 0rem 0rem 1.5rem;
+      margin: 0 0 0 1.5rem;
+    }
+
+    a:hover {
+      box-shadow: 0 2px white;
+      transition: box-shadow 0.8s;
     }
   }
 }
