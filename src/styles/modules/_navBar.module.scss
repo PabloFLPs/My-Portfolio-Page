@@ -16,6 +16,9 @@
     text-decoration: none;
     color: white;
     font-weight: 600;
+
+    box-shadow: none;
+    transition: box-shadow 0.4s;
   }
 
   a:hover {
