@@ -1,21 +1,14 @@
 .about-me {
   text-align: center;
-  background: rgb(61, 61, 61);
-  background: #003b46;
-  color: white;
-  padding: 2rem;
-
-  display: flex;
-  gap: 3rem;
   justify-content: center;
-
-  strong {
-    font-weight: 800;
-  }
+  display: flex;
+  padding: 2rem;
+  background: #003b46;
+  gap: 3rem;
+  color: white;
 
   .my-profile {
     align-self: center;
-    top: 100px;
   
     .my-image {
       background: url("../../assets/my_image.jpg") no-repeat;
@@ -26,21 +19,14 @@
     }
 
     p {
-      margin: 8px 0 0;
       font-weight: 600;
     }
   }
   
   .who-am-i {
-    //border: 2px solid #07575b;
-    //border-radius: 5px;
     width: 340px;
     background: #003b46;
     color: white;
-  
-    strong {
-      font-weight: 800;
-    }
   
     p {
       text-align: justify;
@@ -48,6 +34,8 @@
 
     .line {
       border-bottom: 2px solid white;
+      margin: auto;
+      width: 100%;
     }
   
     a {
@@ -66,17 +54,9 @@
 
     .who-am-i {
       margin: auto;
-      margin-top: 1rem;
       padding: 0.5rem 1.5rem;
       border-radius: 5px;
       width: 70%;
     }
-
-    top: 0;
-    text-align: center;
-    padding: 1rem;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
   }
 }

@@ -5,18 +5,22 @@
 @import "./modules/contact.module.scss";
 @import "./modules/footer.module.scss";
 
-::-webkit-scrollbar {
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+
+*::-webkit-scrollbar {
   width: 6px;
 }
 
-::-webkit-scrollbar-track-piece {
-  background-color: white;
+*::-webkit-scrollbar-track {
+  background: white;
 }
 
-::-webkit-scrollbar-thumb {
-  background-color: rgb(150, 150, 150);
-  border-radius: 3px;
-  border: 1px solid;
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155);
+  border-radius: 1px;
 }
 
 :root {
@@ -126,12 +130,12 @@ input, textarea {
   font: 14px 'Poppins', sans-serif;
 
   box-shadow: none;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.4s;
 }
 
 input:focus, textarea:focus {
-  box-shadow: 2px 2px var(--primary-color);
-  transition: box-shadow 0.2s;
+  box-shadow: 3px 3px var(--primary-color);
+  transition: box-shadow 0.4s;
   outline: none;
 }
 
