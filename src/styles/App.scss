@@ -5,6 +5,20 @@
 @import "./modules/contact.module.scss";
 @import "./modules/footer.module.scss";
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(150, 150, 150);
+  border-radius: 3px;
+  border: 1px solid;
+}
+
 :root {
   --primary-color: #003b46;
   --secondary-color: #07575b;
@@ -110,6 +124,15 @@ input, textarea {
   border: 2px solid var(--primary-color);
   box-sizing: border-box;
   font: 14px 'Poppins', sans-serif;
+
+  box-shadow: none;
+  transition: box-shadow 0.2s;
+}
+
+input:focus, textarea:focus {
+  box-shadow: 2px 2px var(--primary-color);
+  transition: box-shadow 0.2s;
+  outline: none;
 }
 
 button {
