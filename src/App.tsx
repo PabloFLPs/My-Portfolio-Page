@@ -34,7 +34,7 @@ function App() {
       </section>
 
       <section className="contact-section" id="contact">
-        <h3>Get <strong>In Touch</strong></h3>
+        <h2>Get <strong>In Touch</strong></h2>
         <Contact/>
       </section>
 

@@ -1,19 +1,19 @@
 .contact {
-  padding: 1rem;
-  display: flex;
   justify-content: center;
+  display: flex;
+  padding: 1rem;
 
   .send-message {
-    margin: 0;
+    text-align: center;
+    padding: 1rem 0rem 0rem;
   }
 
   button {
     filter: brightness(1);
-    transition: filter 0.5s;
+    transition: filter 0.4s ease-in;
   }
 
   button:hover {
-    filter: brightness(0.85);
-    transition: filter 0.5s;
+    filter: brightness(0.8);
   }
 }

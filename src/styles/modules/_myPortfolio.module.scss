@@ -1,11 +1,10 @@
 .container {
-  padding: 0.5rem;
   align-items: center;
-
+  justify-content: center;
+  padding: 0.5rem;
   display: flex;
   gap: 5rem;
-  justify-content: center;
-
+  
   .github-card {
     font-size: 18px;
 
@@ -17,9 +16,14 @@
     }
 
     object {
-      filter: saturate(120%) brightness(90%) /*invert(1)*/;
+      filter: brightness(95%);
+      transition: filter 0.4s;
       border-radius: 4px;
     }
+  }
+
+  object:hover {
+    filter: brightness(75%);
   }
 }
 
