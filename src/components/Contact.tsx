@@ -6,7 +6,7 @@ import {toast, ToastContainer} from "react-toastify"
 
 export default function Contact() {
   const successToastEmitter = () => {
-    toast.success('🐈‍⬛ Email Sended!',
+    toast.success('🐈‍⬛ Email Sent!',
       {
         position: "bottom-right",
         autoClose: 3000,
