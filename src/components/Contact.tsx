@@ -1,7 +1,38 @@
 import {useState} from 'react'
 import axios from 'axios';
 
+import "react-toastify/dist/ReactToastify.css"
+import {toast, ToastContainer} from "react-toastify"
+
 export default function Contact() {
+  const successToastEmitter = () => {
+    toast.success('🐈‍⬛ Email Sended!',
+      {
+        position: "bottom-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: true,
+        progress: undefined,
+      }
+    )
+  }
+
+  const errorToastEmitter = () => {
+    toast.error('🐈‍⬛ Error!',
+      {
+        position: "bottom-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: true,
+        progress: undefined,
+      }
+    )
+  }
+
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
@@ -16,9 +47,9 @@ export default function Contact() {
     }
 
     axios.post("https://email-free-api.herokuapp.com/send-email", formToBeSubmitted)
-
-    //Cleaning input fields
-    setName(''); setEmail(''); setMessage('')
+    .then(successToastEmitter).catch(error => {
+      if(error) errorToastEmitter()
+    })
   }
 
   return (
@@ -34,6 +65,7 @@ export default function Contact() {
         <textarea name="message" id="message" value={message} onChange={event => setMessage(event.target.value)} placeholder="Type a Message" required/>
 
         <div className="send-message">
+          <ToastContainer theme="dark"/>
           <button type="submit">Send Message</button>
         </div>
       </form>
