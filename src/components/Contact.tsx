@@ -55,8 +55,9 @@ export default function Contact() {
       successToastEmitter()
     } catch (error) {
       if(error) errorToastEmitter()
-      setDisableButtonState(false)
     }
+    
+    setDisableButtonState(false)
   }
 
   return (
