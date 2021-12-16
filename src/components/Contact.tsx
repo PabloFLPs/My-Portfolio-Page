@@ -37,7 +37,7 @@ export default function Contact() {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
-  function onSubmit(event: any) {
+  async function onSubmit(event: any) {
     event.preventDefault()
 
     const formToBeSubmitted = {
@@ -46,10 +46,12 @@ export default function Contact() {
       message: message
     }
 
-    axios.post("https://email-free-api.herokuapp.com/send-email", formToBeSubmitted)
-    .then(successToastEmitter).catch(error => {
+    try {
+      await axios.post("https://email-free-api.herokuapp.com/send-email", formToBeSubmitted)
+      successToastEmitter()
+    } catch (error) {
       if(error) errorToastEmitter()
-    })
+    }
   }
 
   return (
