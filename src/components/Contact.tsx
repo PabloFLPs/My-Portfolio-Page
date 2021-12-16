@@ -37,6 +37,8 @@ export default function Contact() {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
+  const [disableButtonState, setDisableButtonState] = useState(false)
+
   async function onSubmit(event: any) {
     event.preventDefault()
 
@@ -46,12 +48,16 @@ export default function Contact() {
       message: message
     }
 
+    setDisableButtonState(true)
+
     try {
       await axios.post("https://email-free-api.herokuapp.com/send-email", formToBeSubmitted)
       successToastEmitter()
     } catch (error) {
       if(error) errorToastEmitter()
     }
+    
+    setDisableButtonState(false)
   }
 
   return (
@@ -68,7 +74,7 @@ export default function Contact() {
 
         <div className="send-message">
           <ToastContainer theme="dark"/>
-          <button type="submit">Send Message</button>
+          <button type="submit" disabled={disableButtonState}>Send Message</button>
         </div>
       </form>
     </div>
